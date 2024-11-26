@@ -594,7 +594,7 @@ Camera:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 2
   m_GateFitMode: 2
@@ -645,7 +645,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.33091158, y: -0.3620895, z: 0.13398585, w: 0.8610671}
-  m_LocalPosition: {x: -502, y: 856, z: 518}
+  m_LocalPosition: {x: 706, y: 1072, z: -864}
   m_LocalScale: {x: 1.5921, y: 1.5921, z: 4.814351}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1029,7 +1029,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 603778147}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 603778146}
+        m_TargetAssemblyTypeName: UnityEngine.MonoBehaviour, UnityEngine
+        m_MethodName: StopAllCoroutines
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &603778147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1749,7 +1761,7 @@ Transform:
   m_GameObject: {fileID: 1463289041}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -434, y: -312, z: 1137}
+  m_LocalPosition: {x: 594, y: -312, z: -167}
   m_LocalScale: {x: 0.75249, y: 0.75249, z: 0.75249}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1858,8 +1870,8 @@ Transform:
   m_GameObject: {fileID: 1676552921}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1861, y: 0, z: 1558}
-  m_LocalScale: {x: 554.0193, y: 554.0193, z: 554.0193}
+  m_LocalPosition: {x: -1861, y: -83, z: 1558}
+  m_LocalScale: {x: 880.67334, y: 880.67334, z: 880.67334}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
