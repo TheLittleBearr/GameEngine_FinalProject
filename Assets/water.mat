@@ -124,7 +124,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BaseColour: {r: 0.14124236, g: 0.19441515, b: 0.43396226, a: 0}
+    - _BaseColour: {r: 0.024830889, g: 0.12937808, b: 0.5849056, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColour: {r: 3.091848, g: 3.11909, b: 3.396226, a: 1}
